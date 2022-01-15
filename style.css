@@ -23,6 +23,8 @@ header {
 
 .hero {
     background-color: #1f2937;
+    display: flex;
+    padding-top: 100px;
 }
 footer {
     background-color: #1f2937;
@@ -36,4 +38,24 @@ footer {
 }
 ul {
     list-style-type: none;
+}
+.flex-child1 {
+    flex: 1;
+
+}
+.flex-child2 {
+    flex: 1;
+}
+img {
+    height: 300px;
+    width: auto;
+}
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+p {
+    font-size: 18px;
+    color: #E5E7EB; 
 }
