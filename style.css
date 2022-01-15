@@ -25,6 +25,10 @@ header {
     background-color: #1f2937;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 footer {
     background-color: #1f2937;
@@ -46,7 +50,7 @@ ul {
 .flex-child2 {
     flex: 1;
 }
-img {
+.shrug {
     height: 300px;
     width: auto;
 }
@@ -58,4 +62,51 @@ h1 {
 p {
     font-size: 18px;
     color: #E5E7EB; 
+}
+
+.mid-level {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+
+.emoji {
+    border: 5px #3882f6 solid;
+    border-radius: 12px;
+
+}
+.img-with-text {
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    color: darkslategray; 
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.lower-mid-level {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
 }
